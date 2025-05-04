@@ -60,5 +60,7 @@ Crie uma solução que entenda mais sobre o fã da FURIA, usando dados pessoais,
 
 ## 💬 Contato
 Me chamo Maria e sou estudante de Análise e Desenvolvimento de Sistemas. Estou sempre buscando aprender mais sobre design, desenvolvimento web e inteligência artificial.
+
 📧 mariafernandasoaressilv@gmail.com
+
 🔗 https://www.linkedin.com/in/maria-fernanda-soares-silva-93861b289/
