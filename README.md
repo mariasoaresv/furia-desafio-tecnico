@@ -43,7 +43,7 @@ Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar f
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone [https://github.com/mariasoaresv/furia-desafio-tecnico.git]
 2. Abra o projeto no VS Code ou em outro editor de sua preferência
 3. Recomento utilizar uma extensão como o liveserver
 
