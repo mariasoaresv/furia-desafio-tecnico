@@ -49,7 +49,7 @@ Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar f
 
 ---
 
-##🧠 Propostas enviada pela FURIA
+## 🧠 Propostas enviada pela FURIA
 
 "Challenge #1: Experiência Conversacional
 Objetivo: Desenvolver um caso de uso conversacional relacionado à FURIA (Telegram, web chat ou mobile chat)
@@ -58,7 +58,7 @@ Proposta: Crie um chat para os fãs do time de CS da FURIA. O Chat deve conter t
 "Challenge #2 - Know Your Fan
 Crie uma solução que entenda mais sobre o fã da FURIA, usando dados pessoais, redes sociais e interações."
 
-##💬 Contato
+## 💬 Contato
 Me chamo Maria e sou estudante de Análise e Desenvolvimento de Sistemas. Estou sempre buscando aprender mais sobre design, desenvolvimento web e inteligência artificial.
 📧 mariafernandasoaressilv@gmail.com
 🔗 https://www.linkedin.com/in/maria-fernanda-soares-silva-93861b289/
