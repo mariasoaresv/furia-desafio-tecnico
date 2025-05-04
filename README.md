@@ -51,6 +51,8 @@ Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar f
 
 1. Abra esse link aqui para vizualizar a página do projeto:
    https://mariasoaresv.github.io/furia-desafio-tecnico/
+   
+   (como ainda nao possui responsividade para diferentes dispositivos, é recomendado que a página seja aberta em um computador)
 ---
 
 ## 🧠 Propostas enviada pela FURIA
