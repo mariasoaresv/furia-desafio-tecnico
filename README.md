@@ -47,6 +47,10 @@ Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar f
 2. Abra o projeto no VS Code ou em outro editor de sua preferência
 3. Recomento utilizar uma extensão como o liveserver
 
+### ou
+
+1. Abra esse link aqui para vizualizar a página do projeto:
+   https://mariasoaresv.github.io/furia-desafio-tecnico/
 ---
 
 ## 🧠 Propostas enviada pela FURIA
