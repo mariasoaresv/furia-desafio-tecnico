@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             iniciarTorcida();
         }
         else if (comando.includes('merch')) {
-            mostrarMensagemBot('🛒 Confira os produtos oficiais: <a href="https://www.furia.gg/shop" target="_blank">Clique aqui</a>');
+            mostrarMensagemBot('🛒 Confira os produtos oficiais: <a href="https://www.furia.gg/" target="_blank">Clique aqui</a>');
         }
         else if (comando.includes('mapa' && 'forte')) {
             mostrarMensagemBot(`Atualmente, eu diria que <strong>Mirage</strong> é o nosso verdadeiro território! 😉🗺️ Com uma taxa de vitória de <strong>60,8%</strong>, <strong>Mirage</strong> é o mapa onde a <strong>FURIA</strong> brilha mais no cenário competitivo. Além disso, ele é um dos mapas mais jogados e com maior presença na rotação atual. Claro que temos outros mapas fortes também, como Vertigo (61,2%) e Inferno (59,1%), mas Mirage tem sido o nosso favorito para garantir vitórias!🥇 `);
