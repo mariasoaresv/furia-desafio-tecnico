@@ -5,8 +5,7 @@ Este projeto foi desenvolvido como parte do desafio técnico da FURIA Tech, com 
 ## 💡 Ideia do Projeto
 
 O projeto tem como base um chatbot gamificado, onde os fãs respondem a perguntas e, no final, descobrem qual é o seu perfil de torcedor. A ideia nasceu de um projeto anterior que eu já havia começado, mas que foi adaptado para atender melhor às especificações da segunda proposta enviada no desafio da FURIA.
-O objetivo é criar uma experiência leve, divertida e interativa para os fãs, ao mesmo tempo em que fornece à equipe da FURIA informações úteis sobre sua comunidade.
-> ✨ É uma forma natural e engajada dos fãs "prestarem informações", sem parecer um formulário chato — tudo com diversão e identidade.
+O objetivo é criar uma experiência leve, divertida e interativa para os fãs, ao mesmo tempo em que fornece à equipe da FURIA informações úteis sobre sua comunidade. (É uma forma natural e engajada dos fãs "prestarem informações", sem parecer um formulário chato — tudo com diversão e identidade.)
 
 ---
 
