@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*--------------ESTILOS GLOBAIS--------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url('images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+}
+header{
+    background-color: black;
+    border-bottom: 2px solid #2c2c2c;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.cabecalho__link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 1.5rem;
+    font-style: normal;
+}
+.cabecalho__link:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 2px solid #2c2c2c;
+    width: auto;
+    height: 50px;
+}
+.rodape__link{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.rodape__link:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+/*--------------ESTILO INDEX.HTML--------------*/
+
+.inicio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inicio__titulo{
+    font-size: 5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.inicio__subtitulo{
+    font-family: "Roboto Condensed";
+    font-size: 1.25rem;
+    font-style: normal;
+    padding-bottom: 56px;
+}
+.inicio__botao{
+    display: flex;
+    background-color: black;
+    border-radius: 50px;
+    border: 5px solid white;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 1.5rem;
+    font-style: normal;
+    width: 209px;
+    padding: 14px 0px;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.inicio__botao__logo{
+    width: 26px;
+    height: auto;
+}
+.inicio__botao:hover {
+    background-color: #1a1a1a;
+    transition: background-color 0.3s ease;
+}
+
+/*--------------ESTILO SOBRE.HTML--------------*/
+
+.sobre{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.sobre__titulo{
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sobre__paragrafo{
+    font-family: "Roboto Condensed";
+    font-size: 1.25rem;
+    font-style: normal;
+    width: 1226px;
+}
+
+/*--------------ESTILO FURIABOT.HTML + JS--------------*/
+
+.chatbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+}
+.fundo-chat {
+    position: relative;
+    width: 1265px;
+    height: 797px;
+    overflow: hidden;
+}
+.area-mensagens{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 80%;
+    height: 600px;
+    padding: 40px;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    }
+.digite-aqui{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+}
+.digite-aqui input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    padding: 0px 20px;
+    outline: none;
+}
+.digite-aqui button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.digite-aqui button img{
+    height: 24px;
+    width: auto;
+}
+.digite-aqui button:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.mensagem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mensagem.digitando{
+    justify-content: flex-start;
+    width: 700px;
+    height: auto;
+    font-style: italic;
+    color: rgb(99, 99, 99);
+    transition: all 0.3s ease;
+}
+.pontos::after{
+    content: '';
+    display: inline-block;
+    animation: pontinhos 1s steps(4, end) infinite;
+}
+@keyframes pontinhos{
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+}
+.mensagem.usuario{
+    justify-content: flex-end;
+}
+.mensagem.bot, .mensagem.torcida, .mensagem.jogadores{
+    justify-content: flex-start;
+    width: 700px;
+    height: auto;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.mensagem.usuario .texto, .mensagem.bot .texto, .mensagem.torcida .texto, .mensagem.jogadores .texto{
+    background: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+.logo-times{
+    width: 15px;
+    height: 15px;
+}
+.icons-redes{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+}
+.icons-redes:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.mensagem.jogadores strong{
+    font-size: 1rem;
+    min-width: 80px;
+}
+.foto-jogadores{
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+}
+.foto-jogadores:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+/*--------------ESTILO PERFIL-DE-FA.HTML--------------*/
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+}
+.fundo-perfil{
+    position: relative;
+    width: 1265px;
+    height: 797px;
+    overflow: hidden;
+}
+.fundo-perfil__imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.atencao{
+    position: absolute;
+    padding: 10px;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.atencao__titulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 3rem;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+.atencao__img{
+    width: 35px;
+    height: auto;
+}
+.atencao__texto{
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-size: 1.25rem;
+    width: 584px;
+    height: auto;
+    padding-bottom: 50px;
+}
+.concordar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.concordar__checkbox{
+    border: 8px solid black;
+}
+.concordar__checkbox:hover{
+    border: 3px solid #2c2c2c;
+
+}
+.concordar__checkbox__texto{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+/*--------------ESTILO QUESTIONARIO.HTML--------------*/
+
+.questionario{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+        gap: 30px;
+        font-family: "Roboto Condensed";
+}
+.bloco-pergunta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+  }
+.progresso{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+.pergunta{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+.divisoria{
+    width: 100%;
+    border: none;
+    border-top: 2px solid white;
+    margin: 40px 0;
+}
+.grupo-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.grupo-inputs input{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #2c2c2c;
+    opacity: 1;
+}
+.grupo-inputs select{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #2c2c2c;
+}
+.checkbox-grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.finalizar{
+    display: flex;
+    justify-content: center;
+}
+.icones-redes{
+    padding-left: 10px;
+    width: 15px;
+    height: auto;
+}
+.merch-link{
+    text-decoration: none;
+    color: #46088da9;
+    font-weight: 500px;
+}
+.descobrir{
+    display: flex;
+    background-color: black;
+    border-radius: 50px;
+    border: 5px solid white;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 1.5rem;
+    font-style: normal;
+    width: 220px;
+    padding: 14px 0px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    cursor: pointer;
+}
+.descobrir__logo{
+    width: 26px;
+    height: auto;
+}
+.descobrir:hover{
+    background-color: #1a1a1a;
+    transition: background-color 0.3s ease;
+}
+.escondido{
+    display: none;
+}
+#modalPerfil.escondido{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#modalPerfil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#modalPerfil img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+#modalPerfil button{
+    display: flex;
+    background-color: black;
+    border-radius: 50px;
+    border: 5px solid white;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 1.5rem;
+    font-style: normal;
+    width: 200px;
+    padding: 10px 0px;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+#modalPerfil button:hover{
+    background-color: #2c2c2c;
+}
+  
