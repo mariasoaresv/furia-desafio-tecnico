@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte do desafio técnico da FURIA Tech, com 
 
 ## 💡 Ideia do Projeto
 
-O projeto tem como base um chatbot gamificado, onde os fãs respondem a perguntas e, no final, descobrem qual é o seu perfil de torcedor. A ideia nasceu de um projeto anterior que eu já havia começado, mas que foi adaptado para atender melhor às especificações da segunda proposta enviada no desafio da FURIA.
+O projeto tem como base um chatbot gamificado, e um "questionário" onde os fãs respondem a perguntas e, no final, descobrem qual é o seu perfil de torcedor. A ideia nasceu de um projeto anterior que eu já havia começado, mas que foi adaptado para atender melhor às especificações da segunda proposta enviada no desafio da FURIA.
 O objetivo é criar uma experiência leve, divertida e interativa para os fãs, ao mesmo tempo em que fornece à equipe da FURIA informações úteis sobre sua comunidade. (É uma forma natural e engajada dos fãs "prestarem informações", sem parecer um formulário chato — tudo com diversão e identidade.)
 
 ---
@@ -19,8 +19,8 @@ O objetivo é criar uma experiência leve, divertida e interativa para os fãs, 
 
 ## 🧑‍💻 Tecnologias
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ---
@@ -47,7 +47,7 @@ Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar f
 2. Abra o projeto no VS Code ou em outro editor de sua preferência
 3. Recomento utilizar uma extensão como o liveserver
 
-### ou
+#### ou
 
 1. Abra esse link aqui para vizualizar a página do projeto:
    https://mariasoaresv.github.io/furia-desafio-tecnico/
