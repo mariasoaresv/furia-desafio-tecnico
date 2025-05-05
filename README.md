@@ -13,7 +13,7 @@ O objetivo é criar uma experiência leve, divertida e interativa para os fãs, 
 
 - [Visual Studio Code](https://code.visualstudio.com/) — para o desenvolvimento do projeto
 - [Figma](https://figma.com) — para planejar o layout e a experiência do usuário
-- [ChatGPT (OpenAI)](https://chat.openai.com/) — usado como assistente de desenvolvimento e ideação de funcionalidades
+- [ChatGPT (OpenAI)](https://chat.openai.com/) — usado como assistente de desenvolvimento
 
 ---
 
