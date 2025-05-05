@@ -62,7 +62,7 @@ Objetivo: Desenvolver um caso de uso conversacional relacionado à FURIA (Telegr
 Proposta: Crie um chat para os fãs do time de CS da FURIA. O Chat deve conter tudo que você, como fã, gostaria de ver para acompanhar e interagir com o time."
 
 "Challenge #2 - Know Your Fan
-Crie uma solução que entenda mais sobre o fã da FURIA, usando dados pessoais, redes sociais e interações."
+Crie uma solução que entenda mais sobre o fã da FURIA, usando dados pessoais, redes sociais e interações." (a primeira proposta do challenge 2)
 
 ## 💬 Contato
 📧 mariafernandasoaressilv@gmail.com
