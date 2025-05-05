@@ -25,27 +25,26 @@ O objetivo é criar uma experiência leve, divertida e interativa para os fãs, 
 
 ---
 
-## 🌱 Melhorias Futuras
+## 🚀 Melhorias Futuras
 
 Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar futuramente:
 
 - 📱 **Responsividade total** para diferentes dispositivos e tamanhos de tela
-- ♿ **Acessibilidade aprimorada**, com foco em leitura por leitores de tela, contraste e navegação por teclado
+- ♿ **Acessibilidade aprimorada**, leitura por leitores de tela e diferentes contrastes
 - 🗂️ **Integração com banco de dados**, para que a equipe da FURIA consiga visualizar as respostas reais dos fãs
 - 🧠 **Uso de backend com API real**, para acompanhar as interações do chatbot em tempo real, substituindo a simulação baseada em pesquisas
-- 🧪 **Dashboard interno**, para a equipe acompanhar engajamento, tempo de resposta e estatísticas dos perfis de fãs
-- 🔄 **Retomar o quiz a qualquer momento**, com salvamento de progresso via localStorage ou sessão
-- 🌐 **Versão multilíngue**, com suporte inicial para português e inglês
+- 📊 **Dashboard interno**, para a equipe acompanhar engajamento e estatísticas dos perfis de fãs e respostas
+- 🌐 **Versão em outras linguas**, português e inglês
 
 ---
 
-## 🚀 Como rodar o projeto
+## 🖥️ Como rodar o projeto
 
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/mariasoaresv/furia-desafio-tecnico.git]
 2. Abra o projeto no VS Code ou em outro editor de sua preferência
-3. Recomento utilizar uma extensão como o liveserver
+3. Recomendo utilizar uma extensão como o liveserver
 
 #### ou
 
@@ -53,9 +52,10 @@ Aqui estão algumas funcionalidades e melhorias que eu gostaria de implementar f
    https://mariasoaresv.github.io/furia-desafio-tecnico/
    
    (como ainda nao possui responsividade para diferentes dispositivos, é recomendado que a página seja aberta em um computador)
+   
 ---
 
-## 🧠 Propostas enviada pela FURIA
+## 📋 Propostas enviada pela FURIA
 
 "Challenge #1: Experiência Conversacional
 Objetivo: Desenvolver um caso de uso conversacional relacionado à FURIA (Telegram, web chat ou mobile chat)
