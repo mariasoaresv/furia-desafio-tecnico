@@ -1,6 +1,6 @@
 # Know Your Fan - Desafio Técnico FURIA Tech
 
-Este projeto foi desenvolvido como parte do desafio técnico da FURIA Tech, com a proposta de criar uma experiência conversacional (um chatbot) com coisas que os fãs gostariam de ver, além também de uma solução interativa que identificasse o perfil dos fãs e permitisse à equipe adaptar sua comunicação e conteúdos de forma mais assertiva.
+Este projeto foi desenvolvido como parte do desafio técnico da FURIA, com a proposta de criar uma experiência conversacional (um chatbot) com coisas que os fãs gostariam de ver, além também de uma solução interativa que identificasse o perfil dos fãs e permitisse à equipe adaptar sua comunicação e conteúdos de forma mais assertiva.
 
 ## 💡 Ideia do Projeto
 
