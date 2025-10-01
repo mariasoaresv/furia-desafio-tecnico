@@ -65,6 +65,8 @@ Proposta: Crie um chat para os fãs do time de CS da FURIA. O Chat deve conter t
 Crie uma solução que entenda mais sobre o fã da FURIA, usando dados pessoais, redes sociais e interações." (a primeira proposta do challenge 2)
 
 ## 💬 Contato
-📧 mariafernandasoaressilv@gmail.com
 
-🔗 https://www.linkedin.com/in/maria-fernanda-soares-silva-93861b289/
+<div align="center"> 
+  <a href = "mailto:mariafernandasoaressilv@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/maria-fernanda-soares-silva" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
